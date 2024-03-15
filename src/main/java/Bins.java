@@ -8,9 +8,9 @@ public class Bins {
     An array of Result
     -=-=-=-=-=-=-=-=-=-=-=-=-
      */
-    private Integer highRoll;
-    private Integer lowRoll;
-    private Integer[] result;
+    private int highRoll;
+    private int lowRoll;
+    private int[] result;
 
     /*
     Create a constructor for Bins
@@ -18,7 +18,7 @@ public class Bins {
     public Bins(int lowRoll, int highRoll){
         this.highRoll = highRoll;
         this.lowRoll = lowRoll;
-        result = new Integer[this.highRoll - this.lowRoll + 1];
+        result = new int[this.highRoll - this.lowRoll + 1];
     }
 
     /*

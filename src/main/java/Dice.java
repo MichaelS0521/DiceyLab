@@ -5,13 +5,12 @@ public class Dice {
     /*
     Create Instant Variables
     -=-=-=-=-=-=-=-=-=-=-=-=-
-    Int Number of Rolls.
+    Integer Number of Rolls.
     Random for random number.
-    -=-=-=-=-=-=-=-=-=-=-=-=-
-     */
-    private Integer numRolls;
+        -=-=-=-=-=-=-=-=-=-=-=-=-
+         */
+    private int numRolls;
     private Random random;
-
 
     // Create Constructor for Dice
     public Dice(int numRolls){
@@ -20,7 +19,7 @@ public class Dice {
     }
 
     // Create method for Toss and Sum.
-    private Integer tossAndSum() {
+    public int tossAndSum() {
         int sum = 0;
 
         for (int i = 0; i < this.numRolls; i++) {
