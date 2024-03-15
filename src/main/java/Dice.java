@@ -9,7 +9,7 @@ public class Dice {
     Random for random number.
     -=-=-=-=-=-=-=-=-=-=-=-=-
      */
-    private int numRolls;
+    private Integer numRolls;
     private Random random;
 
 
